@@ -127,8 +127,9 @@ h2 {
 
 }
 h3 {
-    font-size: 26px;
+    font-size: 32px;
     font-family: 'Lato', sans-serif;
+    margin: 30px;
 
 }
 h4{
@@ -258,6 +259,10 @@ th{
     display: grid;
     grid-template-columns: 50% 50%;
 }
+.content-mext-2{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
 
 
 
@@ -371,9 +376,29 @@ th{
 
 
 
-
-
-
+/*ESTILOS CAJAS CON TEXTO JAPONES EN SU INTERIOR. ESTO CORRESPONDE A LAS CAJAS AMARILLAS Y AZUZLES DE LA SECCION MEXT>LIBROS*/ 
+.cajaTextoJaponesY {
+    display: inline-block;
+    width: 420px;
+    padding: 5px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    color: #000;
+    background-color: yellow;
+    border: 1px solid #000;
+    text-align: center;
+}
+.cajaTextoJaponesB {
+    display: inline-block;
+    width: 420px;
+    padding: 5px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: blue;
+    border: 1px solid #000;
+    text-align: center;
+}
 
 
 
