@@ -403,9 +403,8 @@ th{
 
 /*ESTILOS DE LA IMAGEN DE ANYA */
 .anya{
-    position: absolute;
-    width: 500px;
-    top: 2500px;
+    position: relative;
+    left: 150px;
 }
 
 
@@ -413,11 +412,6 @@ th{
 
 
 @media (max-width:768px){
-    .anya{
-        position: absolute;
-        width: 250px;
-        top: 2100px;
-    }
 
     body{
  
