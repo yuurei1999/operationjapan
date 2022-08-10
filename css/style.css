@@ -451,6 +451,17 @@ th{
         font-size: 16px;
     }
 
+
+    .resource-list-mext *{    
+        /* Default bullets style erased */
+        list-style: none;  
+        font-family: 'Open Sans', sans-serif; 
+        font-size: 1em;   
+        
+    }
+
+
+
     .header{
         height: 50px;
     }
