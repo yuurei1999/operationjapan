@@ -66,10 +66,22 @@ body{
 
 .logo{
     font-size: 30px;
+    margin: 0 10px;
     font-weight: bold;
     padding: 0 40px;
     line-height: 50px;
 }
+
+.nav-logo-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.nav-logo-link:hover,
+.nav-logo-link_active{
+    background-color: #426eb4;
+    transition: 1.5s;
+}  
+
 .nav-menu{
     display: flex;
     margin-right: 40px;
@@ -492,6 +504,11 @@ th{
     }
     .nav-menu-link:hover,
     .nav-menu-link_active {
+        background: none;
+        color: #2a446d ;
+    }
+    .nav-logo-link:hover,
+    .nav-logo-link_active {
         background: none;
         color: #2a446d ;
     }
