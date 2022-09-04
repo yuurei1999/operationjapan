@@ -505,12 +505,12 @@ th{
     .nav-menu-link:hover,
     .nav-menu-link_active {
         background: none;
-        color: #2a446d ;
+        color: #ffd1d9 ;
     }
     .nav-logo-link:hover,
     .nav-logo-link_active {
         background: none;
-        color: #2a446d ;
+        color: #ffd1d9 ;
     }
     .nav-toggle{
        display: block; 
