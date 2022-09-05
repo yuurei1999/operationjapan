@@ -377,6 +377,33 @@ th{
 
 
 
+/*Japanese resource list ajatt */ 
+.resource-list-ajatt>li{
+    margin-bottom: 7px;
+    margin: 12px;
+}
+
+.resource-list-ajatt *{    
+    /* Default bullets style erased */
+    list-style: none;  
+    font-family: 'Noto Serif JP', serif;
+    color: #1ab0ae;
+    
+}
+ 
+
+.resource-list-ajatt>li::before {
+    /* Unicode for a bullet */
+    content: "\2022";
+          
+    /* Styles for Indentation*/
+    color: violet;
+          
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;    
+}
+
 
 
 
@@ -456,6 +483,11 @@ th{
     .resource-list *{
         font-size: 16px;
     }
+
+    .resource-list-ajatt *{
+        font-size: 16px;
+    }
+
     h1{
         font-size: 1.6em;
     }
