@@ -124,6 +124,11 @@ section {
     margin-top: -40px;
 }
 
+hr {
+    clear: both;
+    visibility: hidden;
+}
+
 h1 {
     text-align: center;
     font-family: 'Lato', sans-serif;
