@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/fontawesome-free-6.1.0-web/css/solid.css">
     <script src="https://kit.fontawesome.com/618e145ffc.js" crossorigin="anonymous"></script>
     <script defer src="index.js"></script>
+    <script defer src="tablaContenido.js"></script>
     <meta name="description" content="En esta sección podrás descargar los exámenes pasados de la beca MEXT (Monbukagakusho) en formato PDF.">
     <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -45,108 +46,169 @@
         </nav>
     </header>  
     <div class="contenedor">
-        <main class="contenido">
-            <h1>Exámenes de años anteriores beca MEXT</h1>
-            <section id="examenes">
-                <br><br>
-                <div class="content-mext">
-                    <div>
-                        <ul class="resource-list-mext">
-                            <li><a href="assets/examenes/examenes-2020" class="item-exam-list"><span>Exámenes 2020<i class="fas fa-file-pdf fa-lg"></i></span></a></li>
-                            <li><a href="assets/examenes/examenes-2019" class="item-exam-list"><span>Exámenes 2019<i class="fas fa-file-pdf fa-lg"></i></span></a></li>
-                            <li><a href="assets/examenes/examenes-2018" class="item-exam-list"><span>Exámenes 2018<i class="fas fa-file-pdf fa-lg"></i></span></a></li> 
-                            <li><a href="assets/examenes/examenes-2016" class="item-exam-list"><span>Exámenes 2016<i class="fas fa-file-pdf fa-lg"></i></span></a></li>
-                            <li><a href="assets/examenes/examenes-2015" class="item-exam-list"><span>Exámenes 2015<i class="fas fa-file-pdf fa-lg"></i></span></a></li>      
-                        </ul>
-                    </div>
-                    <div>
-                        <ul class="resource-list-mext">
-                            <li><a href="assets/examenes/examenes-2010" class="item-exam-list"><span>Exámenes 2010<i class="fas fa-file-pdf fa-lg"></i></span></a></li>
-                            <li><a href="assets/examenes/examenes-2009" class="item-exam-list"><span>Exámenes 2009<i class="fas fa-file-pdf fa-lg"></i></span></a></li>
-                            <li><a href="assets/examenes/examenes-2008" class="item-exam-list"><span>Exámenes 2008<i class="fas fa-file-pdf fa-lg"></i></span></a></li>
-                            <li><a href="assets/examenes/examenes-2007" class="item-exam-list"><span>Exámenes 2007<i class="fas fa-file-pdf fa-lg"></i></span></a></li>  
-                        </ul>
-                    </div>
+            <main class="contenido">
+              <div class="contenido-grid">
+                <div>
+                  <article>
+                    <section id="examenes" data-scroll-spy>
+                    <h1><a href="#examenes">Exámenes de años anteriores beca MEXT</a></h1>
+                        <br><br>
+                        <div class="content-mext">
+                            <div>
+                                <ul class="resource-list-mext">
+                                    <li><a href="assets/examenes/examenes-2020" class="item-exam-list"><span>Exámenes 2020<i class="fas fa-file-pdf fa-lg"></i></span></a></li>
+                                    <li><a href="assets/examenes/examenes-2019" class="item-exam-list"><span>Exámenes 2019<i class="fas fa-file-pdf fa-lg"></i></span></a></li>
+                                    <li><a href="assets/examenes/examenes-2018" class="item-exam-list"><span>Exámenes 2018<i class="fas fa-file-pdf fa-lg"></i></span></a></li> 
+                                    <li><a href="assets/examenes/examenes-2016" class="item-exam-list"><span>Exámenes 2016<i class="fas fa-file-pdf fa-lg"></i></span></a></li>
+                                    <li><a href="assets/examenes/examenes-2015" class="item-exam-list"><span>Exámenes 2015<i class="fas fa-file-pdf fa-lg"></i></span></a></li>      
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="resource-list-mext">
+                                    <li><a href="assets/examenes/examenes-2010" class="item-exam-list"><span>Exámenes 2010<i class="fas fa-file-pdf fa-lg"></i></span></a></li>
+                                    <li><a href="assets/examenes/examenes-2009" class="item-exam-list"><span>Exámenes 2009<i class="fas fa-file-pdf fa-lg"></i></span></a></li>
+                                    <li><a href="assets/examenes/examenes-2008" class="item-exam-list"><span>Exámenes 2008<i class="fas fa-file-pdf fa-lg"></i></span></a></li>
+                                    <li><a href="assets/examenes/examenes-2007" class="item-exam-list"><span>Exámenes 2007<i class="fas fa-file-pdf fa-lg"></i></span></a></li>  
+                                </ul>
+                            </div>
+        
+                          </div>
+                        </section>
+                    <hr>
+                    <section id="temario" data-scroll-spy>
+                      <h2><a href="#temario">Temario Beca MEXT</a></h2>
+                      <p>En el siguiente enlace podrás descargar un temario (NO oficial) de los temas que podrían abarcar los exámenes.</p>
+                        <br>
+                        <a href="assets/otros/Detailed_MEXT_Undergrad_Syllabus.pdf" target="_blank"><span class="color-resource">Click aquí para descargar el temario</span> 📚</a>
+                      </section>
+                    <br>
+                    <hr>
+                    <section id="carreras" data-scroll-spy>
+                        <h2><a href="#carreras">Campos de estudio beca MEXT</a></h2>
+                        <section id="camposUndergraduate" data-scroll-spy>
+                          <h3><a href="#camposUndergraduate">Undergraduate Students</a></h3>
+                          <p>NOTA: La siguiente información puede consultarse de forma detallada en el sitio oficial de la beca MEXT.</p>
+                          <br>
+                          <section id="carrerasSocial" data-scroll-spy>
+                            <h4><a href="#carrerasSocial">(1) Social Sciences and Humanities</a></h4>
+                            <section id="carrerasSocialA" data-scroll-spy>
+                              <h5><a href="#carreasSocialA">Social Sciences and Humanities - A</a></h5>
+                              <ul class="resource-list">
+                                  <li>Law</li>
+                                  <li>Politics</li>
+                                  <li>Pedagogy</li>
+                                  <li>Sociology</li>
+                                  <li>Literature</li>
+                                  <li>History</li>
+                                  <li>Japanese Language</li>
+                                  <li>Others (excluding “1. Economics”, “2. Business Administration” and “3.Others” in Humanities B.)</li>
+                              </ul>
+                            </section>
+                            <section id="carrerasSocialB" data-scroll-spy>
+                              <h5><a href="#carrerasSocialB">Social Sciences and Humanities - B</a></h5>
+                              <ul class="resource-list">
+                                  <li>Economics</li>
+                                  <li>Business Administration</li>
+                                  <li>Others (Accounting, Financial economics, etc.)</li>
+                              </ul>
+                            </section>
+                          </section>  
+                              <hr>
+                              <br>
+                              <section id="carrerasNatural" data-scroll-spy>
+                                <h4><a href="#carrerasNatural">(2) Natural Sciences</a></h4>         
+                                <section id="carrerasNaturalA" data-scroll-spy>
+                                  <h5><a href="#carrerasNaturalA">Natural Sciences - A</a></h5>
+                                  <ul class="resource-list">
+                                      <li>Science (1. Mathematics 2. Physics 3. Chemistry)</li>
+                                      <li>Electric and Electronic Studies (4. Electronics 5. Electrical Engineering
+                                          6. Information Engineering)</li>
+                                      <li>Mechanical Studies (7. Mechanical Engineering 8. Naval Architecture)</li>
+                                      <li>Civil Engineering and Architecture (9. Civil Engineering 10. Architecture
+                                          11. Environmental Engineering)</li>
+                                      <li>Chemical Studies (12. Applied Chemistry 13. Chemical Engineering
+                                          14. Industrial Chemistry 15. Textile Engineering)</li>
+                                      <li>Other Fields (16. Metallurgical Engineering 17. Mining Engineering
+                                          18. Maritime Engineering 19. Biotechnology)</li>
+                                  </ul>
+                                </section>
+                                <section id="carrerasNaturalB" data-scroll-spy>
+                                  <h5><a href="#carrerasNaturalB">Natural Sciences - B</a></h5>
+                                  <ul class="resource-list">
+                                      <li>Agricultural Studies (1. Agriculture 2. Agricultural Chemistry 3. Agricultural Engineering
+                                          4. Animal Science 5. Veterinary Medicine 6. Forestry 7. Food Science 8. Fisheries)</li>
+                                      <li>Hygienic Studies (9. Pharmacy 10. Hygienics 11. Nursing)</li>
+                                      <li>Science (12. Biology)</li>
+                                  </ul>
+                                </section>
+                                <section id="carrerasNaturalC" data-scroll-spy>
+                                  <h5><a href="#carrerasNaturalC">Natural Sciences - C</a></h5>
+                                  <ul class="resource-list">
+                                      <li>Medicine</li>
+                                      <li>Dentistry</li>
+                                  </ul>
+                                </section>
+                              </section>
+                         </section>      
+                      </section>                  
+                        <hr>
+                        <br><br>
+                        <section id="recursosAdicionales" data-scroll-spy>
+                          <h5><a href="#recursosAdicionales">Recursos adicionales</a></h5>
+                          <ul class="resource-list">
+                              <li><a class="color-resource" href="https://www.studyinjapan.go.jp/en/_mt/2022/04/2023_Guidelines_Undergraduate_E.pdf
+                                  " target="_blank">APPLICATION GUIDELINES (Undergraduate)</a></li>
+                          </ul>      
+  
+                        </section>
+                    
+                    <section id="seccionComentarios" data-scroll-spy>
+                        <h2>¿Quieres ayudar a que la lista de recursos sea más grande?</h2>
+                        <p>Deja un comentario con el nombre del canal de YouTube, app o sitio web en la caja de comentarios y el recurso será agregado a la sección correspondiente. </p>        
+                        <script defer src="https://mauvsjapan.herokuapp.com/js/commento.js"></script>
+                        <div id="commento"></div>
+                        <!--  <img src="assets/images/anya.png" alt="Anya pidiendo un favor" width="40%"> -->
+                    </section>
+                    
+                  </article>
 
                 </div>
-            </section>
-            <hr>
-            <section id="temario">
-                <h2>Temario beca MEXT</h2>
-                <p>En el siguiente enlace podrás descargar un temario (NO oficial) de los temas que podrían abarcar los exámenes.</p>
-                <br>
-                <a href="assets/otros/Detailed MEXT Undergrad Syllabus.pdf" target="_blank"><span class="color-resource">Click aquí para descargar el temario</span> 📚</a>
-            </section>
-            <br>
-            <hr>
-            <section id="carreras">
-                <h2>Campos de estudio beca MEXT</h2>
-                <h3>Undergraduate Students</h3>
-                <p>NOTA: La siguiente información puede consultarse de forma detallada en el sitio oficial de la beca MEXT.</p>
-                <br>
-                <h4>(1) Social Sciences and Humanities</h4>
-                <h5>Social Sciences and Humanities - A</h5>
-                <ul class="resource-list">
-                    <li>Law</li>
-                    <li>Politics</li>
-                    <li>Pedagogy</li>
-                    <li>Sociology</li>
-                    <li>Literature</li>
-                    <li>History</li>
-                    <li>Japanese Language</li>
-                    <li>Others (excluding “1. Economics”, “2. Business Administration” and “3.Others” in Humanities B.)</li>
-                </ul>
-                <h5>Social Sciences and Humanities - B</h5>
-                <ul class="resource-list">
-                    <li>Economics</li>
-                    <li>Business Administration</li>
-                    <li>Others (Accounting, Financial economics, etc.)</li>
-                </ul>
-                <hr>
-                <br>
-                <h4>(2) Natural Sciences</h4>         
-                <h5>Natural Sciences - A</h5>
-                <ul class="resource-list">
-                    <li>Science (1. Mathematics 2. Physics 3. Chemistry)</li>
-                    <li>Electric and Electronic Studies (4. Electronics 5. Electrical Engineering
-                        6. Information Engineering)</li>
-                    <li>Mechanical Studies (7. Mechanical Engineering 8. Naval Architecture)</li>
-                    <li>Civil Engineering and Architecture (9. Civil Engineering 10. Architecture
-                        11. Environmental Engineering)</li>
-                    <li>Chemical Studies (12. Applied Chemistry 13. Chemical Engineering
-                        14. Industrial Chemistry 15. Textile Engineering)</li>
-                    <li>Other Fields (16. Metallurgical Engineering 17. Mining Engineering
-                        18. Maritime Engineering 19. Biotechnology)</li>
-                </ul>
-                <h5>Natural Sciences - B</h5>
-                <ul class="resource-list">
-                    <li>Agricultural Studies (1. Agriculture 2. Agricultural Chemistry 3. Agricultural Engineering
-                        4. Animal Science 5. Veterinary Medicine 6. Forestry 7. Food Science 8. Fisheries)</li>
-                    <li>Hygienic Studies (9. Pharmacy 10. Hygienics 11. Nursing)</li>
-                    <li>Science (12. Biology)</li>
-                </ul>
-                <h5>Natural Sciences - C</h5>
-                <ul class="resource-list">
-                    <li>Medicine</li>
-                    <li>Dentistry</li>
-                </ul>
-                <hr>
-                <br><br>
-                <h5>Recursos adicionales</h5>
-                <ul class="resource-list">
-                    <li><a class="color-resource" href="https://www.studyinjapan.go.jp/en/_mt/2022/04/2023_Guidelines_Undergraduate_E.pdf
-                        " target="_blank">APPLICATION GUIDELINES (Undergraduate)</a></li>
-                </ul>       
-            </section>
-            <section id="comentarios">
-                <h2>¿Quieres ayudar a que la lista de recursos sea más grande?</h2>
-                <p>Deja un comentario con el nombre del canal de YouTube, app o sitio web en la caja de comentarios y el recurso será agregado a la sección correspondiente. </p>        
-                <script defer src="https://mauvsjapan.herokuapp.com/js/commento.js"></script>
-                <div id="commento"></div>
-                <!--  <img src="assets/images/anya.png" alt="Anya pidiendo un favor" width="40%"> -->
-            </section>
+                <div>
+                  <nav class="navTablaContenido">
+                      <h3 class="tituloTablaContenido">Contenido</h3>
+                      <ul>
+                          <li><a href="#examenes" data-scroll-spy>Exámenes MEXT</a></li>
+                          <li><a href="#temario" data-scroll-spy>Temario Beca MEXT</a></li>
+                          <li><a href="#carreras" data-scroll-spy>Campos de estudio beca MEXT</a>
+                            <ul>
+                              <li><a href="#camposUndergraduate" data-scroll-spy>Undergraduate Students</a>
+                                <ul>
+                                  <li><a href="#carrerasSocial" data-scroll-spy>(1) Social Sciences and Humanities</a>
+                                   <ul>
+                                    <li><a href="#carrerasSocialA" data-scroll-spy>Social Sciences and Humanities - A</a></li>
+                                    <li><a href="#carrerasSocialB" data-scroll-spy>Social Sciences and Humanities - B</a></li>
+                                   </ul>
+                                  </l>
+                                  <li><a href="#carrerasNatural" data-scroll-spy>(2) Natural Sciences</a>
+                                   <ul>
+                                    <li><a href="#carrerasNaturalA" data-scroll-spy>Natural Sciences - A</a></li>
+                                    <li><a href="#carrerasNaturalB" data-scroll-spy>Natural Sciences - B</a></li>
+                                    <li><a href="#carrerasNaturalC" data-scroll-spy>Natural Sciences - C</a></li>
+                                   </ul>
+                                  </li>
+                                   <li><a href="#recursosAdicionales" data-scroll-spy>Recursos adicionales</a></li>
+                                   <li><a href="#seccionComentarios" data-scroll-spy>Sección de comentarios</a></li>
+                                </ul>                  
+                              </li>
+                            </ul>
+                          </li>             
+                      </ul>
+                  </nav>        
+                  
+                </div>
+                
+              </div>
         </main>
-    </div>
-    
+    </div>    
 </body>
 </html>
