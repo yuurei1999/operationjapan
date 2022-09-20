@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Este sitio web es una guía para aprender japonés desde 0, informarse sobre becas para estudiar en Japón, recomendaciones de libros, canales de YouTube y sitios web orientados al aprendizaje del idioma."> 
+    <meta name="description" content="Este sitio web es una guía para aprender japonés desde 0, informarse sobre becas para estudiar en Japón, recomendaciones de libros, canales de YouTube y sitios web orientados al aprendizaje del idioma.">
     <meta name="author" content="Mauricio Jiménez Villalpando">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fontawesome-free-6.1.0-web/css/all.css">
@@ -15,6 +15,7 @@
 
     <script src="https://kit.fontawesome.com/618e145ffc.js" crossorigin="anonymous"></script>
     <script defer src="index.js"></script>
+    <script defer src="tablaContenido.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
@@ -28,89 +29,104 @@
 
   gtag('config', 'G-ZVZTLJQQRT');
 </script>
-    <title>Acerca de este sitio</title>    
+    <title>Acerca de este sitio</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <div>
-                <a href="https://www.justanotherajatter.moe" class="logo nav-link nav-logo-link">🌸Inicio</a>
-            </div>
-            <div class="menu-btn">
-                <div class="menu-btn_burger" aria-label="Abrir menú"></div>
-            </div>
-            <script src="button.js"></script>
-            <ul class="nav-menu">
-                <li class="nav-menu-item"><a href="https://www.justanotherajatter.moe/inicio-guia" class="nav-link nav-menu-link">Guía</a></li>
-                <li class="nav-menu-item"><a href="https://www.justanotherajatter.moe/jlpt" class="nav-link nav-menu-link">JLPT</a></li>
-                <li class="nav-menu-item"><a href="https://www.justanotherajatter.moe/mext" class="nav-link nav-menu-link">MEXT</a></li>
-                <li class="nav-menu-item"><a href="https://www.justanotherajatter.moe/recursos" class="nav-link nav-menu-link">Recursos</a></li>
-                <li class="nav-menu-item"><a href="https://www.justanotherajatter.moe/about" class="nav-link nav-menu-link">Acerca de</a></li>
-            </ul>
-        </nav>
-    </header>  
-    <div class="contenedor">
-        <main class="contenido">
-            <h1><span class="texto-japones-title">ちゃっす！👋🏼</span></h1>
-            <h2>Sobre mí y el sitio</h2>
-            <p>Hola amig@ 🤖 mi nombre es <span class="blurry-text">Silver Spoon</span> y me encuentro estudiando informática. El objetivo de este sitio es poner en práctica lo que aprendo sobre desarrollo web y al mismo tiempo compartir recursos que me han ayudado con el aprendizaje del idioma japonés.</p> 
-            <p>En este apartado escribiré el nombre de las películas, series, anime, manga y novelas ligeras que he usado en el proceso de adquisición del idioma japonés.
-            Todo esto lo hago con el único fin de ver que tanto he progresado y para ayudarme a mantener la motivación.</p>
-            
-            <br>
-            <img class="center" src="assets/images/anya-sleeping.jpg" alt="Anya spy x family" width="50%">
-            <ul class="resource-list">
-                <li><a class="color-ingles resource-item-hover" href="#peliculas">Películas</a></li>
-                <li><a class="color-ingles resource-item-hover" href="#series">Series / Dorama</a></li>
-                <li><a class="color-ingles resource-item-hover" href="#anime">Anime</a></li>
-                <li><a class="color-ingles resource-item-hover" href="#manga">Manga</a></li>
-                <li><a class="color-ingles resource-item-hover" href="#lightNovel">Light Novels</a></li>
-                <li><a class="color-ingles resource-item-hover" href="#youtube">Canales de YouTube</a></li>
-                <li><a class="color-ingles resource-item-hover" href="#contenidoMes">Contenido del mes</a></li>
-            </ul>
-            <hr>
-            <section id="peliculas">
-                <h3>Películas vistas</h3>
-                <ul class="resource-list-ajatt">
-                    <li>銀の匙</li> 
-                    <li>旅猫リポート</li> 
-                    <li>君の膵臓をたべたい</li> 
-                    <li>オレンジ</li> 
-                    <li>街の上で</li>
-                    <li>恋空</li>
-                    <li>彼女が好きなものは ホモであって僕ではない</li>
-                    <li>アイアムアヒーロー</li>                    
-                </ul>
-                <h3>Películas pendientes</h3>
-                <ul class="resource-list-ajatt">
-                    <li>荒川アンダー ザ ブリッジ THE MOVIE</li>
-                </ul>
+  <header class="header">
+    <nav class="nav">
+      <div>
+        <a href="https://www.justanotherajatter.moe" class="logo nav-link nav-logo-link">🌸Inicio</a>
+      </div>
+      <div class="menu-btn">
+        <div class="menu-btn_burger" aria-label="Abrir menú"></div>
+      </div>
+      <script src="button.js"></script>
+      <ul class="nav-menu">
+        <li class="nav-menu-item"><a href="https://www.justanotherajatter.moe/inicio-guia" class="nav-link nav-menu-link">Guía</a></li>
+        <li class="nav-menu-item"><a href="https://www.justanotherajatter.moe/jlpt" class="nav-link nav-menu-link">JLPT</a></li>
+        <li class="nav-menu-item"><a href="https://www.justanotherajatter.moe/mext" class="nav-link nav-menu-link">MEXT</a></li>
+        <li class="nav-menu-item"><a href="https://www.justanotherajatter.moe/recursos" class="nav-link nav-menu-link">Recursos</a></li>
+        <li class="nav-menu-item"><a href="https://www.justanotherajatter.moe/about" class="nav-link nav-menu-link">Acerca de</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="contenedor">
+    <main class="contenido">
+      <div class="contenido-grid">
+        <div>
+          <article>
+            <section id="mau" data-scroll-spy>
+              <h1><span class="texto-japones-title">ちゃっす！👋🏼</span></h1>
+              <h2>Sobre mí y el sitio</h2>
+              <p>Hola amig@ 🤖 mi nombre es <span class="blurry-text">Silver Spoon</span> y me encuentro estudiando informática. El objetivo de este sitio es poner en práctica lo que aprendo sobre desarrollo web y al mismo tiempo compartir recursos que me han ayudado con el aprendizaje del idioma japonés.</p> 
+              <p>En este apartado escribiré el nombre de las películas, series, anime, manga y novelas ligeras que he usado en el proceso de adquisición del idioma japonés.
+              Todo esto lo hago con el único fin de ver que tanto he progresado y para ayudarme a mantener la motivación.</p>            
+              <br>
+              <img class="center" src="assets/images/anya-sleeping.jpg" alt="Anya spy x family" width="50%">
             </section>
             <hr>
-            <section id="series">
-                <h3>Series vistas / Dorama </h3>
-                <ul class="resource-list-ajatt">
+            <br>
+            <hr>
+            <section id="contenido-inmersion" data-scroll-spy>
+              <section id="peliculas" data-scroll-spy>
+                <h3><a href="#peliculas">Películas</a></h3>
+                <section id="peliculasTerminadas" data-scroll-spy="">
+                  <h4><a href="#peliculasTerminadas">Películas vistas</a></h4>
+                  <ul class="resource-list-ajatt">
+                      <li>銀の匙</li> 
+                      <li>旅猫リポート</li> 
+                      <li>君の膵臓をたべたい</li> 
+                      <li>オレンジ</li> 
+                      <li>街の上で</li>
+                      <li>恋空</li>
+                      <li>彼女が好きなものは ホモであって僕ではない</li>
+                      <li>アイアムアヒーロー</li>                    
+                  </ul>
+                </section>
+                <section id="peliculasPendientes" data-scroll-spy="">
+                  <h4><a href="#peliculasPendientes">Películas pendientes</a></h4>
+                  <ul class="resource-list-ajatt">
+                      <li>荒川アンダー ザ ブリッジ THE MOVIE</li>
+                  </ul>
+                </section>
+              </section>               
+              <hr>
+              <section id="series" data-scroll-spy="">
+                <h3><a href="#series">Series</a></h3>
+                <section id="seriesTerminadas" data-scroll-spy="">
+                  <h4><a href="#seriesTerminadas">Series terminadas</a></h4>
+                  <ul class="resource-list-ajatt">
                     <li>コタローは一人暮らし</li>
-                </ul>
-                <h3>Series iniciadas / Doramas</h3>
-                <ul class="resource-list-ajatt">
-                    <li></li>
-                </ul>
-                <h3>Series pendientes / Doramas</h3>
-                <ul class="resource-list-ajatt">
+                  </ul>
+                </section>
+                <section id="seriesIniciadas" data-scroll-spy="">
+                  <h4><a href="#seriesIniciadas">Series empezadas</a></h4>
+                  <ul class="resource-list-ajatt">
                     <li>GTO</li>
+                </ul>
+                </section>
+                <section id="seriesPendientes" data-scroll-spy="">
+                  <h4><a href="#seriesPendientes">Series pendientes</a></h4>
+                  <ul class="resource-list-ajatt">
                     <li>僕のいた時間</li>
                 </ul>
-            </section>
-            <hr>
-            <section id="anime">
-                <h3>Animes vistos</h3>
+                </section>
+              </section>
+              <hr>
+              <section id="anime" data-scroll-spy="">
+              <h3><a href="#anime">Series Anime</a></h3>
+              <section id="animeTerminados" data-scroll-spy="">
+                <h4><a href="#animeTerminados">Series anime terminadas</a></h4>
                 <ul class="resource-list-ajatt">
                     <li>イジらないで、長瀞さん (T1)</li> 
                 </ul>
-                <h3>Animes iniciados</h3>
-
-                <h3>Animes pendientes</h3>
+              </section>
+              <section id="animeIniciados" data-scroll-spy="">
+                <h4><a href="animeIniciados">Series anime empezadas</a></h4>
+              
+              </section>
+              <section id="animePendientes" data-scroll-spy="">
+                <h4><a href="animePendientes">Series anime pendientes</a></h4>
                 <ul class="resource-list-ajatt">
                     <li>古見さんは、コミュ症です</li>
                     <li>日常</li>
@@ -121,28 +137,75 @@
                     <li>ソウルイーター</li>
                     <li>あの日見た花の名前を僕達はまだ知らない</li>
                 </ul>
-            </section>
-            <hr>
-            <section id="contenidoMes">
-                <h3>Meta contenido para el mes de septiembre</h3>
+              </section>  
+              </section>
+              <hr>
+              <section id="manga" data-scroll-spy="">
+                <h3><a href="#manga">Manga</a></h3>
+                <section id="mangaTerminado" data-scroll-spy="">
+                <h4><a href="#mangaTerminado">Manga terminado</a></h4>
                 <ul class="resource-list-ajatt">
-                    <li><del>アイアムアヒーロー (live action)</del></li> 
-                    <li>GTO (live action)</li> 
-                    <li>日常 (アニメ)</li>
-                    <li>僕のいた時間</li>
-                    <li>Spy x Family (Anime) T1</li>
-                    <li>Spy x Family (Manga) Tomo 1</li>
-                    <li>オレンジ (Anime)</li>
-                    <li>あの日見た花の名前を僕達はまだ知らない (Anime)</li>
-                    <li>荒川アンダー ザ ブリッジ THE MOVIE</li>     
-                    <li>古見さんは、コミュ症です (Anime)</li>                                   
+                   <li></li>
                 </ul>
-            </section>
-        </main>
-        <footer>
-            
-        </footer>
-    </div>
-    
+                </section>
+                <section id="mangaIniciado" data-scroll-spy="">
+                  <h4><a href="mangaIniciado">Manga empezado</a></h4>
+                  <ul class="resource-list-ajatt">
+                    <li></li>
+                 </ul>
+                </section>
+                <section id="mangaPendiente" data-scroll-spy="">
+                  <h4><a href="mangaPendiente">Manga pendiente</a></h4>
+                  <ul class="resource-list-ajatt">
+                    <li></li>
+                 </ul>
+                </section>
+              </section>                
+          </article>
+
+        </div>
+        <div>
+          <nav class="navTablaContenido">
+              <h3 class="tituloTablaContenido">Contenido</h3>
+              <ul>
+                  <li><a href="#mau" data-scroll-spy>Sobre mí y el sitio</a></li>
+                  <li><a href="#contenido-inmersion" data-scroll-spy>Contenido para inmersión</a></li>
+                    <ul>
+                    <li><a href="#peliculas" data-scroll-spy>Películas</a>
+                    <ul>
+                      <li><a href="#peliculasTerminadas" data-scroll-spy>Vistas</a></li>
+                      <li><a href="#peliculasPendientes" data-scroll-spy>Pendientes</a></li>
+                    </ul>
+                    </li>
+                  <li><a href="#series" data-scroll-spy>Series</a>
+                  <ul>
+                    <li><a href="#seriesTerminadas" data-scroll-spy>Terminadas</a></li>
+                    <li><a href="#seriesIniciadas" data-scroll-spy>Iniciadas</a></li>
+                    <li><a href="#seriesPendientes" data-scroll-spy>Pendientes</a></li>
+                  </ul>
+                  </li>
+                  <li><a href="#anime" data-scroll-spy>Series Anime</a>
+                    <ul>
+                      <li><a href="#animeTerminados" data-scroll-spy>Terminadas</a></li>
+                      <li><a href="#animeIniciados" data-scroll-spy>Iniciadas</a></li>
+                      <li><a href="#animePendientes" data-scroll-spy>Pendientes</a></li>
+                    </ul>
+                    </li>
+                  <li><a href="#manga" data-scroll-spy>Manga</a>
+                    <ul>
+                      <li><a href="#mangaTerminado" data-scroll-spy>Manga Terminado</a></li>
+                      <li><a href="#mangaIniciado" data-scroll-spy>Manga Iniciado</a></li>
+                      <li><a href="#mangaPendiente" data-scroll-spy>Manga Pendiente</a></li>
+                    </ul>
+                  </li>
+                
+              </ul>
+          </nav>        
+          
+        </div>
+        
+      </div>
+</main>
+</div>
 </body>
 </html>
