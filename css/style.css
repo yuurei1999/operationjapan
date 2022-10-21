@@ -582,7 +582,9 @@ th{
     user-select: none;
  }
 
-
+@media screen and (min-resolution: 120dpi) { 
+body {zoom: 0.8;}
+}
 
 @media (max-width:768px){
 
