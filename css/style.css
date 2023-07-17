@@ -631,17 +631,20 @@ body {zoom: 0.8;}
     }
 
     h1{
-        font-size: 1em;
+        font-size: 1.6em;
     }
     h1 a{
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
-    
-    h2{
+    .texto-japones-title{
         font-size: 1em;
     }
+
+    h2{
+        font-size: 1.5em;
+    }
     h2 a {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     h3{
