@@ -44,7 +44,7 @@ body{
 
 .header{
     /* background-color: blueviolet; original */
-    background-color: #34568B;
+    background-color: #FDAC53;
     position: fixed;
     width: 100%;
     height: 50px;
@@ -124,7 +124,7 @@ body{
 }
 .nav-logo-link:hover,
 .nav-logo-link_active{
-    background-color: #426eb4;
+    background-color: #f0932f;
     transition: 1.5s;
 }  
 
@@ -148,7 +148,7 @@ body{
 }
 .nav-menu-link:hover,
 .nav-menu-link_active{
-    background-color: #426eb4;
+    background-color: #f0932f;
     transition: 1.5s;
 }  
 
@@ -350,7 +350,7 @@ th{
 .texto-japones-title{
     font-family: 'Noto Serif JP', serif;
     font-size: 30px;
-    color: #34568B;
+    color: #000080;
 }
 .japanese-text{
     font-family: 'Noto Serif JP', serif;
@@ -698,7 +698,7 @@ body {zoom: 0.8;}
     .nav-menu{
         flex-direction: column;
         align-items: center;
-        background-color: #375b95;
+        background-color: #FDAC53;
         margin-right: 20px;
         position: fixed;
         left: 0;
@@ -719,12 +719,12 @@ body {zoom: 0.8;}
     .nav-menu-link:hover,
     .nav-menu-link_active {
         background: none;
-        color: #ffd1d9 ;
+        color: #000080 ;
     }
     .nav-logo-link:hover,
     .nav-logo-link_active {
         background: none;
-        color: #ffd1d9 ;
+        color: #000080 ;
     }
     .nav-toggle{
        display: block; 
@@ -750,7 +750,7 @@ body {zoom: 0.8;}
         height: 4px;
         background: #fff;
         border-radius: 5px;
-        box-shadow: 0 2px 5px #34568B;
+        box-shadow: 0 2px 5px #f0932f;
         transition: all .3s ease-in-out;
         
     }
@@ -762,7 +762,7 @@ body {zoom: 0.8;}
         height: 4px;
         background: #fff;
         border-radius: 5px;
-        box-shadow: 0 2px 5px #34568B;
+        box-shadow: 0 2px 5px #f0932f;
         transition: all .3s ease-in-out;
     }
     .menu-btn_burger::before{
